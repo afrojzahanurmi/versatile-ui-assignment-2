@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+/*General style*/
+.text-red{
+    color: rgb(230, 83, 60);
+} 
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.text-si{
+    font-size: 1.23rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bg-color{
+    background-color:rgb(17, 17, 17)
+    ;
+}
+.btn-primary{
+    border-radius: 42px;
+    border: none;
+background: rgb(230, 83, 60);
+}
+.display-flex{
+    display: flex;
+}
+.background{ background-color: black;
+
+}
+/*nav style*/
+nav{
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*foooter style*/
+.foot{
+    color: white;
+   
+    padding: 50px 195px;
+}
+.footer-content{ 
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.copyright{
+
+    align-items: center;
+    text-align: center;
+    
+}
+.foot-title{
+    font-size: 4.38rem;
+    font-weight: 800;
+}
+
+/*responsive*/
+@media screen and (max-width: 576px) {
+    .foot{
+        padding: 0 80px;
+    }
+.footer-content{ flex-direction: column;
+}
+.copyright{
+    padding-bottom: 20px;
+}
+    
+}
