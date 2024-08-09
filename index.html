@@ -6,33 +6,163 @@
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body class="inter-font">
-    <header class="bg-color">
-        <nav class="display-flex bg">
+<body class="inter-font background">
+    <header class="background">
+        <nav class="display-flex ">
             <div><h2 class="text-red"><i>Fitness</i></h2></div>
-            <div class=""><ul class="display-flex">
-                <li><button class="btn-primary"><a href="">Home</a></button></li>
+            <div class="nav-menu"><ul class="display-flex">
+                <li><a href="">Home</a></li>
                 <li><a href="">Service</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">About</a></li>
             </ul></div>
+            <div><i class="fa-solid fa-bars"></i></div>
         </nav>
-    </header>
-    <main>
-       <section class="banner back">
+    <section class="banner"> <div class="banner-content display-flex">
         <div>
-            <h1>Get body in <span><i>shape </i></span> and stay healthy</h1>
-            <p></p>
-        <button>Join club now</button>
-        <button>Download</button>
-        <p>350+
-            tutorial video
-        </p>
+            <h1 class="banner-tit">Get body in <br> <span id="differnt"><i>shape </i></span> & stay <br>healthy</h1>
+            <p class="text">A huge selection of health and fitness content, healthy recipes <br> and 
+                transformation stories to help you get fit and stay fit!</p>
+       <div class="display-flex ">
+         <div class="display-flex gap">
+            <button class="btn-primary secondary-btn">Join club now</button> 
+    <button class="secondary-btn banner-btn">Download</button>
+     </div>  </div>
+        </div>
+        <div class="tutorial-rel"><div class="top"><p class="banner-tutorial"><span class="tutorial">500+</span><br>
+            Free Workout Videos</p></div>
+                    <img src="images/Images 2.png" alt="">
+                    <div class="banner-des Down"><p class="banner-tutorial"><span class="tutorial">350+</span><br>
+                        tutorial video</p>
+            
+        </div> </div>
+
+       </section> </header>
+<main>
+    <section class="background sec-1-container">
+        <h2 class="">Change Your Habits</h2>
+        <p class="text">We believe fitness should be accessible to everyone,
+             everywhere, regardless of income or <br> access to a gym.</p>
+             <div class="display-flex habit">
+             <div class="sec-1-about">
+                <img src="images/image 3.png" alt="">
+                <h3>Movement</h3>
+            <p class="text">We believe fitness should be accessible to <br> everyone</p></div>
+            <div class="sec-1-about">
+                <img src="images/image 2.png" alt="">
+                <h3>Time</h3>
+            <p class="text">We believe fitness should accessible to <br> everyone</p></div>
+            <div class="sec-1-about">
+                <img src="images/image 4.png" alt="">
+                <h3>Practice</h3>
+            <p class="text">We believe fitness should be accessible to <br> everyone</p></div>
+            <div class="sec-1-about">
+                <img src="images/image 5.png" alt="">
+                <h3>Weight Loss</h3>
+            <p class="text">We believe fitness should be accessible to <br>everyone</p></div>
+             </div>
+             
+            
+    </section>
+    <section class="run-container"><div class="run display-flex">
+        <div class="column extra">
+            <h2>Run an Extra 
+                Mile Easily</h2>
+                <p class="text">We believe fitness should be accessible to everyone, everywhere,
+                     regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                     <button class="btn-primary secondary-btn">Join now</button>
+        </div>
+        <div class="column run-size"><img src="images/run.jpg" alt=""></div>
+     </div></section>
+    <section class="exercise-container">
+        <h2>Trainings and Exercises</h2>
+        <p class="text">We believe fitness should be accessible to everyone, everywhere, 
+            regardless of income or access to a gym.</p>
+            <div class="grid-container">
+                <div class="exercise-1"><img class="exercise1" src="images/exercise1.jpg" alt=""><div class="bottom">Leg exercise</div></div>
+                <div class="exercise-1"><img src="images/exercise2.png" alt=""> <div class="bottom">hand exercise</div></div>
+                <div class="exercise-1"><img src="images/exercise3.png" alt=""> <div class="bottom">Leg Press: Works the <br>quadriceps and glutes</div></div>
+                <div class="exercise-1"><img src="images/image 4.png" alt=""><div class="bottom">Leg Press: Works the <br>quadriceps and glutes</div></div>
+                <div class="exercise-1"><img src="images/exercise5.jpg" alt=""><div class="bottom">Leg Press: Works the <br>quadriceps and glutes</div></div>
+                <div class="exercise-1"><img src="images/exercise6.jpg" alt=""><div class="bottom">Leg Press: Works the <br>quadriceps and glutes</div></div>
+            </div>
+
+    </section>
+    <section class="bmi-cal display-flex">
+        <div class="column-1">
+          <h2>BMI Calculator Chart</h2>
+            <table>
+                
+                <tr>
+                    <th>BMI</th>
+                    <th>Weight status</th>
+                </tr>
+                <tr> <td>Below 18.5</td>
+                <td>Underweight</td></tr>
+
+                <tr> <td>18.5 - 24.9</td>
+                    <td>healthy</td></tr>
+                    <tr> <td>25.0 - 29.9</td>
+                        <td>Overweight</td></tr>
+                        <tr> <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                
+            </table>
+        </div>
+        <div class="column-2">
+            <h2>Calculate your BMI</h2>
+            <p class="text">We believe fitness should be accessible to everyone, <br>everywhere,
+                 regardless of income or access to a gym.</p>
+           <div>      <form action="">
+            <div class="display-flex form-size"><input type="text" placeholder="Height/cm">
+                <input type="text" placeholder="weight/cm"></div>
+            <div class="display-flex form-size"><input type="number" placeholder="age">
+                <select name="Sex" id="">
+                   
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select></div>
+            <div class="form-size"><select name="Activity factor" id="activity">
+                <option value="select an activity factor">select an activity factor</option>
+                <option value="select an activity factor">select an activity factor</option>
+            </select></div>
+            <button class="btn-primary secondary-btn"> Calculate</button>
+
+         </form></div>
+
         </div>
 
-       </section> 
+    </section>
+    <section class="meet-team">
+        <h2>Meet our team</h2>
+        <p class="text-si">We believe fitness should be accessible to everyone, everywhere, regardless of income <br> or access to a gym.</p>
+        <div class="grid-container-2">
+            <div class="exercise-1"><img src="images/trainer1.png" alt=""><div class="bottom">Jerom Bell</div></div>
+            <div class="exercise-1"><img src="images/trainer2.png" alt=""><div class="bottom">Cameron Vell</div></div>
+            <div class="exercise-1"><img src="images/trainer3.png" alt=""><div class="bottom"></div>Darell Stawrd</div>
+            <div class="exercise-1"><img src="images/trainer4.png" alt=""><div class="bottom">Dianne Russel</div></div>
+            <div class="exercise-1"><img src="images/trainer5.png" alt=""><div class="bottom">Coddy Fisher</div></div>
+            <div class="exercise-1"><img src="images/trainer6.png" alt=""><div class="bottom">Theresa Webb</div></div>
 
+        </div>
+
+    </section>
     </main>
+   
+   
+   
+   
+   
+   
+    
+   
+   
+   
+   
+   
+   
+   
     <footer class="background"><section class="foot"> <div class="footer-content">
         <div class="column">
             <h1 class="text-red foot-title"><i>Fitness</i></h1>
@@ -45,7 +175,7 @@
             <h3>Get Started</h3>
             <p class="text-si">Service</p>
             <p class="text-si">Contact us</p>
-            <p class="text-si">Affiliate program</p>
+            <p class="text-si">Affilliate program</p>
             <p class="text-si">About Us</p>
         </div> 
         <div class="column">
