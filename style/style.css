@@ -28,7 +28,7 @@
 
 
 .btn-primary{
-    width: 92px;
+    width: 5.75rem;
     height: 38px;
     border-radius: 42px;
     border: none;
@@ -40,7 +40,7 @@ font-weight: 600;
 
 }
 .secondary-btn{
-    width: 224px;
+    width: 14rem;
     height: 54px;
     color: white;
 font-size: 1.125rem;
@@ -81,6 +81,13 @@ nav ul li a{
     text-align: center;
     align-items: center;
 }
+
+.nav-menu{
+    display: none;
+}
+  
+
+
 
 
 /*banner style*/
@@ -324,7 +331,38 @@ grid-template-columns: 15.63rem auto 20.06rem;
 
 /*responsive*/
 @media screen and (max-width: 576px) {
-   .habit{
+  nav{
+    max-width: 100%;
+  }
+    .nav-menu{
+    display: block;
+    margin-top: 20px;
+  }
+  .nav-list{
+    display: none;
+  }
+  .banner-content{
+    flex-direction: column;
+   
+  }
+
+.banner-tit{
+    font-size: 2.38rem;
+}
+.gap{
+    flex-direction: column;
+}
+.banner-tutorial{
+    width: 7rem;
+}
+.Down{
+   bottom: 220px;
+   left: 20px;
+}
+.top{
+   top: 0px;
+}
+    .habit{
     flex-direction: column;
    }
    .sec-1-about{
